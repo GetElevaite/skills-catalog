@@ -1,0 +1,530 @@
+[
+  {
+    "id": "007",
+    "name": "007",
+    "author": "sickn33",
+    "description": "Security audit, hardening, threat modeling (STRIDE/PASTA), Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any project.",
+    "category": "Testing & Security",
+    "fileCount": 18,
+    "updatedDaysAgo": 15,
+    "files": [
+      { "name": "SKILL.md", "size": 23015, "type": "file" },
+      { "name": "references", "size": null, "type": "folder" },
+      { "name": "references/ai-agent-security.md", "size": 14934, "type": "file" },
+      { "name": "references/api-security-patterns.md", "size": 13106, "type": "file" },
+      { "name": "references/incident-playbooks.md", "size": 15342, "type": "file" },
+      { "name": "references/owasp-checklists.md", "size": 12921, "type": "file" },
+      { "name": "references/stride-pasta-guide.md", "size": 12748, "type": "file" },
+      { "name": "scripts", "size": null, "type": "folder" },
+      { "name": "scripts/audit-runner.sh", "size": 3412, "type": "file" }
+    ]
+  },
+  {
+    "id": "novel-writer",
+    "name": "novel-writer",
+    "author": "openclaw",
+    "description": "Multi-agent creative system for long-form novel writing. Use for new novel projects, building worldviews and outlines, chapter-by-chapter writing, and auto-advancing through long creative workflows with reader feedback loops.",
+    "category": "Content & Media",
+    "fileCount": 96,
+    "updatedDaysAgo": 8,
+    "files": [
+      { "name": "SKILL.md", "size": 45231, "type": "file" },
+      { "name": "agents", "size": null, "type": "folder" },
+      { "name": "agents/outline-agent.md", "size": 8921, "type": "file" },
+      { "name": "agents/chapter-writer.md", "size": 11042, "type": "file" },
+      { "name": "agents/feedback-processor.md", "size": 6731, "type": "file" },
+      { "name": "templates", "size": null, "type": "folder" },
+      { "name": "templates/world-building.md", "size": 9234, "type": "file" },
+      { "name": "templates/character-sheet.md", "size": 5621, "type": "file" }
+    ]
+  },
+  {
+    "id": "b2b-trade-assistant",
+    "name": "b2b-trade-assistant",
+    "author": "openclaw",
+    "description": "Offline B2B transaction assistant. Complete the full workflow with a single command — create, sign, confirm receipt, and process refunds for electronic contracts. Supports account status queries, identity verification, and payment binding.",
+    "category": "Business",
+    "fileCount": 78,
+    "updatedDaysAgo": 12,
+    "files": [
+      { "name": "SKILL.md", "size": 18432, "type": "file" },
+      { "name": "workflows", "size": null, "type": "folder" },
+      { "name": "workflows/contract-flow.md", "size": 7231, "type": "file" },
+      { "name": "workflows/refund-flow.md", "size": 5421, "type": "file" },
+      { "name": "templates", "size": null, "type": "folder" },
+      { "name": "templates/purchase-order.md", "size": 4312, "type": "file" }
+    ]
+  },
+  {
+    "id": "dropshipping-guide",
+    "name": "dropshipping-guide",
+    "author": "openclaw",
+    "description": "Dropshipping new seller guide. Use when users ask about distribution setup, store binding, product selection, inventory management, procurement, after-sales processing, and store growth strategies.",
+    "category": "Business",
+    "fileCount": 3,
+    "updatedDaysAgo": 20,
+    "files": [
+      { "name": "SKILL.md", "size": 9231, "type": "file" },
+      { "name": "guides", "size": null, "type": "folder" },
+      { "name": "guides/store-setup.md", "size": 4521, "type": "file" },
+      { "name": "guides/product-selection.md", "size": 3821, "type": "file" }
+    ]
+  },
+  {
+    "id": "price-monitor",
+    "name": "price-monitor",
+    "author": "openclaw",
+    "description": "Monitor wholesale product prices, support drop-shipping price inquiries, supplier information, and same-product price comparisons. Suitable for e-commerce sellers, resellers, and side-business entrepreneurs.",
+    "category": "Business",
+    "fileCount": 4,
+    "updatedDaysAgo": 18,
+    "files": [
+      { "name": "SKILL.md", "size": 7231, "type": "file" },
+      { "name": "scripts", "size": null, "type": "folder" },
+      { "name": "scripts/price-scraper.md", "size": 3421, "type": "file" },
+      { "name": "scripts/comparison-engine.md", "size": 2931, "type": "file" }
+    ]
+  },
+  {
+    "id": "wholesale-sourcing-agent",
+    "name": "wholesale-sourcing-agent",
+    "author": "openclaw",
+    "description": "Your intelligent companion for mastering wholesale procurement. Empowers international buyers with step-by-step guidance on supplier verification, product selection, price negotiation, and logistics planning from China's largest wholesale marketplace.",
+    "category": "Business",
+    "fileCount": 2,
+    "updatedDaysAgo": 22,
+    "files": [
+      { "name": "SKILL.md", "size": 12431, "type": "file" },
+      { "name": "references", "size": null, "type": "folder" },
+      { "name": "references/supplier-checklist.md", "size": 5231, "type": "file" }
+    ]
+  },
+  {
+    "id": "traditional-calendar",
+    "name": "traditional-calendar",
+    "author": "openclaw",
+    "description": "Query traditional Chinese calendar information including lunar dates, solar terms, five elements, auspicious and inauspicious activities, celestial stems and branches, Buddhist and Taoist calendars.",
+    "category": "Lifestyle",
+    "fileCount": 6,
+    "updatedDaysAgo": 30,
+    "files": [
+      { "name": "SKILL.md", "size": 8921, "type": "file" },
+      { "name": "data", "size": null, "type": "folder" },
+      { "name": "data/solar-terms.md", "size": 4231, "type": "file" },
+      { "name": "data/five-elements.md", "size": 3121, "type": "file" },
+      { "name": "data/lunar-conversion.md", "size": 5421, "type": "file" }
+    ]
+  },
+  {
+    "id": "1password",
+    "name": "1password",
+    "author": "openclaw",
+    "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading, injecting, and running secrets via op commands.",
+    "category": "Tools",
+    "fileCount": 4,
+    "updatedDaysAgo": 5,
+    "files": [
+      { "name": "SKILL.md", "size": 11234, "type": "file" },
+      { "name": "recipes", "size": null, "type": "folder" },
+      { "name": "recipes/cli-setup.md", "size": 4321, "type": "file" },
+      { "name": "recipes/secret-injection.md", "size": 3821, "type": "file" }
+    ]
+  },
+  {
+    "id": "abp-ddd",
+    "name": "abp-ddd",
+    "author": "abpframework",
+    "description": "ABP DDD patterns — Entities, Aggregate Roots, value objects, Repositories, Domain Services, Domain Events, Specifications. Use when designing domain layer, creating entities, repositories, or domain services in ABP projects.",
+    "category": "Development",
+    "fileCount": 1,
+    "updatedDaysAgo": 45,
+    "files": [
+      { "name": "SKILL.md", "size": 19231, "type": "file" }
+    ]
+  },
+  {
+    "id": "abp-mongodb",
+    "name": "abp-mongodb",
+    "author": "abpframework",
+    "description": "ABP MongoDB patterns — AbpMongoDbContext, IMongoCollection, MongoDbRepository, no migrations, embedded documents vs references, manual UpdateAsync required. Use when working on MongoDB projects or implementing MongoDB repositories in ABP.",
+    "category": "Databases",
+    "fileCount": 1,
+    "updatedDaysAgo": 45,
+    "files": [
+      { "name": "SKILL.md", "size": 14231, "type": "file" }
+    ]
+  },
+  {
+    "id": "academic-paper-review",
+    "name": "academic-paper-review",
+    "author": "bytedance",
+    "description": "Use this skill when the user requests to review, analyze, critique, or summarize academic papers, research articles, preprints, or scientific publications. Supports comprehensive structured reviews covering methodology assessment, contribution evaluation, and literature positioning.",
+    "category": "Research",
+    "fileCount": 1,
+    "updatedDaysAgo": 10,
+    "files": [
+      { "name": "SKILL.md", "size": 16821, "type": "file" }
+    ]
+  },
+  {
+    "id": "academic-researcher",
+    "name": "academic-researcher",
+    "author": "Shubhamsaboo",
+    "description": "Academic research assistant for literature reviews, paper analysis, and scholarly writing. Use when reviewing academic papers, conducting literature reviews, writing research summaries, analyzing methodologies, or formatting citations.",
+    "category": "Research",
+    "fileCount": 1,
+    "updatedDaysAgo": 7,
+    "files": [
+      { "name": "SKILL.md", "size": 13421, "type": "file" }
+    ]
+  },
+  {
+    "id": "accessibility-wcag",
+    "name": "accessibility-wcag",
+    "author": "affaan-m",
+    "description": "Design, implement, and audit inclusive digital products using WCAG 2.2 Level AA standards. Generate semantic ARIA for Web and accessibility traits for native platforms (iOS/Android). Covers keyboard navigation, focus management, and screen reader compatibility.",
+    "category": "Development",
+    "fileCount": 1,
+    "updatedDaysAgo": 14,
+    "files": [
+      { "name": "SKILL.md", "size": 22134, "type": "file" }
+    ]
+  },
+  {
+    "id": "accessibility-vscode",
+    "name": "accessibility-vscode",
+    "author": "microsoft",
+    "description": "Primary accessibility skill for VS Code. Required for new feature and contribution work. Covers accessibility help dialogs, accessible views, verbosity settings, signals, ARIA announcements, keyboard navigation, and ARIA labels and roles.",
+    "category": "Development",
+    "fileCount": 1,
+    "updatedDaysAgo": 3,
+    "files": [
+      { "name": "SKILL.md", "size": 18921, "type": "file" }
+    ]
+  },
+  {
+    "id": "acp-router",
+    "name": "acp-router",
+    "author": "openclaw",
+    "description": "Route plain-language requests across multiple AI coding agents including Claude Code, Codex, Cursor, Copilot, Gemini CLI, and others into either ACP runtime sessions or direct agent-driven sessions. Reads this skill first, then uses sessions_spawn for thread creation.",
+    "category": "Tools",
+    "fileCount": 1,
+    "updatedDaysAgo": 9,
+    "files": [
+      { "name": "SKILL.md", "size": 8921, "type": "file" }
+    ]
+  },
+  {
+    "id": "act-on-feedback",
+    "name": "act-on-feedback",
+    "author": "microsoft",
+    "description": "Act on user feedback attached to the current session. Use when the user submits feedback on the session's changes via the Submit Feedback button. Parses structured feedback and applies requested revisions systematically.",
+    "category": "Tools",
+    "fileCount": 1,
+    "updatedDaysAgo": 6,
+    "files": [
+      { "name": "SKILL.md", "size": 7234, "type": "file" }
+    ]
+  },
+  {
+    "id": "phaser-actions-utilities",
+    "name": "phaser-actions-utilities",
+    "author": "phaserjs",
+    "description": "Use this skill when working with Phaser 4 utility functions, actions, alignment, grid layout, or batch operations on game objects. Triggers on: align, grid layout, actions, and set operations on groups of game objects.",
+    "category": "Development",
+    "fileCount": 1,
+    "updatedDaysAgo": 25,
+    "files": [
+      { "name": "SKILL.md", "size": 15231, "type": "file" }
+    ]
+  },
+  {
+    "id": "active-directory-attacks",
+    "name": "active-directory-attacks",
+    "author": "sickn33",
+    "description": "Comprehensive techniques for testing Microsoft Active Directory environments. Covers reconnaissance, credential harvesting, Kerberos attacks, lateral movement, privilege escalation, and domain dominance for red team operations and penetration testing.",
+    "category": "Testing & Security",
+    "fileCount": 3,
+    "updatedDaysAgo": 17,
+    "files": [
+      { "name": "SKILL.md", "size": 21432, "type": "file" },
+      { "name": "techniques", "size": null, "type": "folder" },
+      { "name": "techniques/kerberos-attacks.md", "size": 12341, "type": "file" },
+      { "name": "techniques/lateral-movement.md", "size": 9821, "type": "file" }
+    ]
+  },
+  {
+    "id": "trpc-express-adapter",
+    "name": "trpc-express-adapter",
+    "author": "trpc",
+    "description": "Mount tRPC as Express middleware with createExpressMiddleware() from @trpc/server/adapters/express. Access Express req/res in createContext via CreateExpressContextOptions. Mount at a path prefix like /trpc. Avoid global express.json() conflicting with tRPC body parsing.",
+    "category": "Development",
+    "fileCount": 1,
+    "updatedDaysAgo": 28,
+    "files": [
+      { "name": "SKILL.md", "size": 8231, "type": "file" }
+    ]
+  },
+  {
+    "id": "adaptyv-bio-platform",
+    "name": "adaptyv-bio-platform",
+    "author": "adaptyvbio",
+    "description": "Cloud laboratory platform for automated protein testing and validation. Use when designing proteins and needing experimental validation including binding assays, expression testing, thermostability measurements, enzyme activity assays, or protein sequence optimization.",
+    "category": "Data & AI",
+    "fileCount": 6,
+    "updatedDaysAgo": 11,
+    "files": [
+      { "name": "SKILL.md", "size": 19231, "type": "file" },
+      { "name": "api", "size": null, "type": "folder" },
+      { "name": "api/foundry-client.md", "size": 8421, "type": "file" },
+      { "name": "api/experiment-design.md", "size": 7231, "type": "file" },
+      { "name": "api/results-retrieval.md", "size": 6121, "type": "file" }
+    ]
+  },
+  {
+    "id": "adaptive-card-form",
+    "name": "adaptive-card-form",
+    "author": "microsoft",
+    "description": "Create form-based UI for Command Palette extensions using Adaptive Cards. Use when adding forms, user input fields, toggle switches, text inputs, dropdown menus, data entry, surveys, configuration dialogs, or interactive content pages.",
+    "category": "Development",
+    "fileCount": 3,
+    "updatedDaysAgo": 4,
+    "files": [
+      { "name": "SKILL.md", "size": 12931, "type": "file" },
+      { "name": "templates", "size": null, "type": "folder" },
+      { "name": "templates/form-template.json", "size": 4231, "type": "file" },
+      { "name": "templates/card-designer.md", "size": 3821, "type": "file" }
+    ]
+  },
+  {
+    "id": "add-database-engine",
+    "name": "add-database-engine",
+    "author": "TableProApp",
+    "description": "Guided implementation for adding a new database engine to TablePro. Pre-loaded with all integration points, file locations, patterns, and the complete checklist derived from Redis implementation experience. Use when adding support for a new database type.",
+    "category": "Databases",
+    "fileCount": 1,
+    "updatedDaysAgo": 33,
+    "files": [
+      { "name": "SKILL.md", "size": 17231, "type": "file" }
+    ]
+  },
+  {
+    "id": "dock-band-extension",
+    "name": "dock-band-extension",
+    "author": "microsoft",
+    "description": "Add dock band support to Command Palette extensions for persistent toolbar widgets. Use when adding dock support, toolbar buttons, persistent UI widgets, taskbar integration, live-updating status displays, quick-access buttons, or always-visible controls.",
+    "category": "Development",
+    "fileCount": 1,
+    "updatedDaysAgo": 4,
+    "files": [
+      { "name": "SKILL.md", "size": 9231, "type": "file" }
+    ]
+  },
+  {
+    "id": "docker-compose-orchestration",
+    "name": "docker-compose-orchestration",
+    "author": "devops-tools",
+    "description": "Docker Compose multi-service orchestration patterns. Covers service dependencies, health checks, networking, volume management, environment variable injection, and production-ready compose file configurations for any stack.",
+    "category": "DevOps",
+    "fileCount": 5,
+    "updatedDaysAgo": 21,
+    "files": [
+      { "name": "SKILL.md", "size": 14231, "type": "file" },
+      { "name": "examples", "size": null, "type": "folder" },
+      { "name": "examples/postgres-redis.yml", "size": 2341, "type": "file" },
+      { "name": "examples/full-stack.yml", "size": 3121, "type": "file" },
+      { "name": "examples/monitoring.yml", "size": 2841, "type": "file" }
+    ]
+  },
+  {
+    "id": "github-actions-ci",
+    "name": "github-actions-ci",
+    "author": "devops-tools",
+    "description": "GitHub Actions workflow configuration and CI/CD pipeline setup. Covers matrix builds, caching strategies, artifact management, secrets handling, environment deployments, and reusable workflow patterns for any language or framework.",
+    "category": "DevOps",
+    "fileCount": 8,
+    "updatedDaysAgo": 13,
+    "files": [
+      { "name": "SKILL.md", "size": 16421, "type": "file" },
+      { "name": "workflows", "size": null, "type": "folder" },
+      { "name": "workflows/node-ci.yml", "size": 2341, "type": "file" },
+      { "name": "workflows/python-ci.yml", "size": 2121, "type": "file" },
+      { "name": "workflows/docker-build.yml", "size": 1941, "type": "file" },
+      { "name": "workflows/deploy-prod.yml", "size": 3241, "type": "file" }
+    ]
+  },
+  {
+    "id": "api-documentation-generator",
+    "name": "api-documentation-generator",
+    "author": "docteam",
+    "description": "Automated API documentation generation and maintenance. Parses OpenAPI specs, generates human-readable reference docs, creates usage examples, and maintains changelogs. Integrates with Swagger, Redoc, and custom documentation systems.",
+    "category": "Documentation",
+    "fileCount": 4,
+    "updatedDaysAgo": 19,
+    "files": [
+      { "name": "SKILL.md", "size": 13421, "type": "file" },
+      { "name": "templates", "size": null, "type": "folder" },
+      { "name": "templates/endpoint-template.md", "size": 4231, "type": "file" },
+      { "name": "templates/changelog-format.md", "size": 2921, "type": "file" }
+    ]
+  },
+  {
+    "id": "smart-contract-audit",
+    "name": "smart-contract-audit",
+    "author": "web3sec",
+    "description": "Smart contract security audit and vulnerability assessment. Covers reentrancy attacks, integer overflow, access control issues, front-running, flash loan exploits, and Solidity best practices for EVM-compatible blockchains.",
+    "category": "Blockchain",
+    "fileCount": 7,
+    "updatedDaysAgo": 16,
+    "files": [
+      { "name": "SKILL.md", "size": 24231, "type": "file" },
+      { "name": "checklists", "size": null, "type": "folder" },
+      { "name": "checklists/reentrancy.md", "size": 7421, "type": "file" },
+      { "name": "checklists/access-control.md", "size": 6231, "type": "file" },
+      { "name": "checklists/defi-patterns.md", "size": 8921, "type": "file" },
+      { "name": "references", "size": null, "type": "folder" },
+      { "name": "references/known-exploits.md", "size": 11231, "type": "file" }
+    ]
+  },
+  {
+    "id": "sql-query-optimizer",
+    "name": "sql-query-optimizer",
+    "author": "dataeng",
+    "description": "SQL query optimization and database performance tuning. Covers index strategy, query plan analysis, N+1 problem detection, window functions, CTEs, and database-specific optimizations for PostgreSQL, MySQL, and SQLite.",
+    "category": "Data & AI",
+    "fileCount": 3,
+    "updatedDaysAgo": 24,
+    "files": [
+      { "name": "SKILL.md", "size": 18231, "type": "file" },
+      { "name": "examples", "size": null, "type": "folder" },
+      { "name": "examples/slow-query-patterns.md", "size": 9421, "type": "file" },
+      { "name": "examples/index-strategies.md", "size": 7231, "type": "file" }
+    ]
+  },
+  {
+    "id": "content-calendar-manager",
+    "name": "content-calendar-manager",
+    "author": "marketingtools",
+    "description": "Content planning and editorial calendar management. Schedule posts across platforms, track content themes and campaigns, manage deadlines and approvals, and maintain a consistent publishing cadence for blogs, social media, and newsletters.",
+    "category": "Content & Media",
+    "fileCount": 2,
+    "updatedDaysAgo": 26,
+    "files": [
+      { "name": "SKILL.md", "size": 10231, "type": "file" },
+      { "name": "templates", "size": null, "type": "folder" },
+      { "name": "templates/editorial-calendar.md", "size": 5421, "type": "file" }
+    ]
+  },
+  {
+    "id": "test-automation-framework",
+    "name": "test-automation-framework",
+    "author": "qatools",
+    "description": "Test automation framework setup and best practices. Covers unit testing, integration testing, end-to-end testing with Playwright and Cypress, test coverage reporting, mock strategies, and CI integration for JavaScript and TypeScript projects.",
+    "category": "Testing & Security",
+    "fileCount": 6,
+    "updatedDaysAgo": 9,
+    "files": [
+      { "name": "SKILL.md", "size": 21431, "type": "file" },
+      { "name": "patterns", "size": null, "type": "folder" },
+      { "name": "patterns/unit-test-patterns.md", "size": 8231, "type": "file" },
+      { "name": "patterns/e2e-patterns.md", "size": 9421, "type": "file" },
+      { "name": "patterns/mock-strategies.md", "size": 6231, "type": "file" },
+      { "name": "patterns/ci-integration.md", "size": 4821, "type": "file" }
+    ]
+  },
+  {
+    "id": "kubernetes-deployment",
+    "name": "kubernetes-deployment",
+    "author": "devops-tools",
+    "description": "Kubernetes deployment patterns and cluster management. Covers pod scheduling, resource limits, ConfigMaps and Secrets, Ingress configuration, Helm chart authoring, rolling updates, and autoscaling for production workloads.",
+    "category": "DevOps",
+    "fileCount": 9,
+    "updatedDaysAgo": 14,
+    "files": [
+      { "name": "SKILL.md", "size": 22431, "type": "file" },
+      { "name": "manifests", "size": null, "type": "folder" },
+      { "name": "manifests/deployment.yaml", "size": 3421, "type": "file" },
+      { "name": "manifests/service.yaml", "size": 2341, "type": "file" },
+      { "name": "manifests/ingress.yaml", "size": 2921, "type": "file" },
+      { "name": "helm", "size": null, "type": "folder" },
+      { "name": "helm/chart-template.yaml", "size": 4231, "type": "file" }
+    ]
+  },
+  {
+    "id": "llm-prompt-engineering",
+    "name": "llm-prompt-engineering",
+    "author": "airesearch",
+    "description": "Advanced prompt engineering techniques for large language models. Covers chain-of-thought reasoning, few-shot examples, structured output schemas, system prompt design, retrieval-augmented generation, and evaluation frameworks for production AI applications.",
+    "category": "Data & AI",
+    "fileCount": 5,
+    "updatedDaysAgo": 6,
+    "files": [
+      { "name": "SKILL.md", "size": 28431, "type": "file" },
+      { "name": "techniques", "size": null, "type": "folder" },
+      { "name": "techniques/chain-of-thought.md", "size": 9231, "type": "file" },
+      { "name": "techniques/few-shot.md", "size": 7421, "type": "file" },
+      { "name": "techniques/rag-patterns.md", "size": 8231, "type": "file" }
+    ]
+  },
+  {
+    "id": "technical-writing-guide",
+    "name": "technical-writing-guide",
+    "author": "docteam",
+    "description": "Technical writing best practices for developer documentation. Covers style guides, README structure, inline code documentation, tutorial design, conceptual guides, and maintaining documentation parity with rapidly evolving codebases.",
+    "category": "Documentation",
+    "fileCount": 3,
+    "updatedDaysAgo": 31,
+    "files": [
+      { "name": "SKILL.md", "size": 16231, "type": "file" },
+      { "name": "templates", "size": null, "type": "folder" },
+      { "name": "templates/readme-template.md", "size": 4231, "type": "file" },
+      { "name": "templates/tutorial-structure.md", "size": 5421, "type": "file" }
+    ]
+  },
+  {
+    "id": "fitness-coach",
+    "name": "fitness-coach",
+    "author": "healthtools",
+    "description": "Personalized fitness coaching and workout planning. Creates structured training programs, tracks progress, adjusts difficulty based on feedback, and provides exercise form guidance for strength training, cardio, and flexibility routines.",
+    "category": "Lifestyle",
+    "fileCount": 4,
+    "updatedDaysAgo": 40,
+    "files": [
+      { "name": "SKILL.md", "size": 14231, "type": "file" },
+      { "name": "programs", "size": null, "type": "folder" },
+      { "name": "programs/strength-training.md", "size": 7231, "type": "file" },
+      { "name": "programs/cardio-plans.md", "size": 5421, "type": "file" }
+    ]
+  },
+  {
+    "id": "redis-caching-patterns",
+    "name": "redis-caching-patterns",
+    "author": "dataeng",
+    "description": "Redis caching strategies and data structure patterns. Covers cache-aside, write-through, and write-behind patterns, TTL management, pub/sub messaging, sorted sets, streams, and connection pooling for high-throughput production systems.",
+    "category": "Databases",
+    "fileCount": 4,
+    "updatedDaysAgo": 27,
+    "files": [
+      { "name": "SKILL.md", "size": 17231, "type": "file" },
+      { "name": "patterns", "size": null, "type": "folder" },
+      { "name": "patterns/cache-strategies.md", "size": 8421, "type": "file" },
+      { "name": "patterns/data-structures.md", "size": 7231, "type": "file" }
+    ]
+  },
+  {
+    "id": "defi-protocol-analysis",
+    "name": "defi-protocol-analysis",
+    "author": "web3sec",
+    "description": "DeFi protocol analysis and risk assessment. Covers liquidity pool mechanics, yield farming strategies, impermanent loss calculations, protocol risk scoring, tokenomics evaluation, and on-chain data analysis for decentralized finance applications.",
+    "category": "Blockchain",
+    "fileCount": 5,
+    "updatedDaysAgo": 23,
+    "files": [
+      { "name": "SKILL.md", "size": 21231, "type": "file" },
+      { "name": "analysis", "size": null, "type": "folder" },
+      { "name": "analysis/liquidity-pools.md", "size": 9421, "type": "file" },
+      { "name": "analysis/risk-scoring.md", "size": 8231, "type": "file" },
+      { "name": "analysis/tokenomics.md", "size": 7421, "type": "file" }
+    ]
+  }
+]
