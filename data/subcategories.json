@@ -1,0 +1,89 @@
+{
+  "Blockchain": [
+    "DeFi",
+    "Smart Contracts",
+    "Web3 Tools"
+  ],
+  "Business": [
+    "Business Apps",
+    "E-commerce",
+    "Finance & Investment",
+    "Health & Fitness",
+    "Payment",
+    "Project Management",
+    "Real Estate & Legal",
+    "Sales & Marketing"
+  ],
+  "Content & Media": [
+    "Content Creation",
+    "Design",
+    "Documents",
+    "Media"
+  ],
+  "Data & AI": [
+    "Data Analysis",
+    "Data Engineering",
+    "LLM & AI",
+    "Machine Learning"
+  ],
+  "Databases": [
+    "Database Tools",
+    "NoSQL Databases",
+    "SQL Databases"
+  ],
+  "DevOps": [
+    "CI/CD",
+    "Cloud",
+    "Containers",
+    "Git Workflows",
+    "Monitoring"
+  ],
+  "Development": [
+    "Architecture Patterns",
+    "Backend",
+    "CMS & Platforms",
+    "E-commerce Development",
+    "Framework Internals",
+    "Frontend",
+    "Full Stack",
+    "Game Development",
+    "Mobile",
+    "Package & Distribution",
+    "Scripting"
+  ],
+  "Documentation": [
+    "Education",
+    "Knowledge Base",
+    "Technical Docs"
+  ],
+  "Lifestyle": [
+    "Arts & Crafts",
+    "Culinary Arts",
+    "Divination & Mysticism",
+    "Literature & Writing",
+    "Philosophy & Ethics",
+    "Wellness & Health"
+  ],
+  "Research": [
+    "Academic",
+    "Astronomy & Physics",
+    "Bioinformatics",
+    "Computational Chemistry",
+    "Lab Tools",
+    "Scientific Computing"
+  ],
+  "Testing & Security": [
+    "Code Quality",
+    "Security",
+    "Testing"
+  ],
+  "Tools": [
+    "Automation Tools",
+    "CLI Tools",
+    "Debugging",
+    "Domain & DNS Tools",
+    "IDE Plugins",
+    "Productivity & Integration",
+    "System Administration"
+  ]
+}

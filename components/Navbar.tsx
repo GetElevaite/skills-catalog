@@ -6,8 +6,6 @@ const NAV_LINKS = [
   { label: "Skills Library", href: "/catalog" },
   { label: "What You Can Do", href: "#" },
   { label: "How to Use", href: "#" },
-  { label: "Reviews", href: "#" },
-  { label: "FAQ", href: "#" },
 ];
 
 export default function Navbar() {

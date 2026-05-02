@@ -44,58 +44,82 @@ export default function SkillDetailPage({ params }: PageProps) {
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_320px]">
         {/* Left: skill info */}
         <div>
-          <h1 className="mb-4 text-3xl font-bold text-white">{skill.name}</h1>
-          <p className="mb-4 leading-relaxed text-[#9ca3af]">{skill.description}</p>
+          {/* Category + subcategory badges */}
+          <div className="mb-3 flex flex-wrap gap-2">
+            <span className="rounded-full border border-[#f97316]/30 bg-[#f97316]/10 px-3 py-0.5 text-xs text-[#f97316]">
+              {skill.category}
+            </span>
+            {skill.subcategory && (
+              <span className="rounded-full border border-[#2a2a2a] bg-[#1a1a1a] px-3 py-0.5 text-xs text-[#9ca3af]">
+                {skill.subcategory}
+              </span>
+            )}
+          </div>
+
+          <h1 className="mb-2 text-3xl font-bold text-white">{skill.name}</h1>
+          <p className="mb-1 text-sm text-[#9ca3af]">
+            by <span className="text-white">{skill.author}</span>
+          </p>
+          <p className="mb-4 mt-4 leading-relaxed text-[#9ca3af]">{skill.description}</p>
           <p className="mb-8 text-xs text-[#6b7280]">
-            Updated {skill.updatedDaysAgo} {skill.updatedDaysAgo === 1 ? "day" : "days"} ago
-            &nbsp;·&nbsp;{skill.fileCount} {skill.fileCount === 1 ? "file" : "files"}
+            Updated {skill.updatedDaysAgo}{" "}
+            {skill.updatedDaysAgo === 1 ? "day" : "days"} ago
+            &nbsp;·&nbsp;{skill.fileCount}{" "}
+            {skill.fileCount === 1 ? "file" : "files"}
           </p>
 
           {/* Files */}
-          <div>
-            <div className="mb-3 flex items-center justify-between">
-              <span className="text-xs font-semibold uppercase tracking-widest text-[#9ca3af]">
-                Files
-              </span>
-              <span className="rounded bg-[#2a2a2a] px-2 py-0.5 text-xs text-[#9ca3af]">
-                {skill.fileCount}
-              </span>
-            </div>
-            <div className="overflow-hidden rounded-xl border border-[#2a2a2a]">
-              {skill.files.map((file, idx) => {
-                const isFirst = idx === 0;
-                const isFolder = file.type === "folder";
-                const isNested = file.name.includes("/");
+          {skill.files.length > 0 && (
+            <div>
+              <div className="mb-3 flex items-center justify-between">
+                <span className="text-xs font-semibold uppercase tracking-widest text-[#9ca3af]">
+                  Files
+                </span>
+                <span className="rounded bg-[#2a2a2a] px-2 py-0.5 text-xs text-[#9ca3af]">
+                  {skill.fileCount}
+                </span>
+              </div>
+              <div className="overflow-hidden rounded-xl border border-[#2a2a2a]">
+                {skill.files.map((file, idx) => {
+                  const isFirst = idx === 0;
+                  const isFolder = file.type === "folder";
+                  const depth = (file.name.match(/\//g) || []).length;
 
-                return (
-                  <div
-                    key={file.name}
-                    className={`flex items-center justify-between border-b border-[#2a2a2a] px-4 py-2.5 last:border-0 ${
-                      isFirst
-                        ? "bg-[#f97316]/10"
-                        : "bg-[#1a1a1a] hover:bg-[#222]"
-                    }`}
-                  >
-                    <div className="flex items-center gap-2.5">
-                      {isFolder ? <FolderIcon /> : <FileIcon isFirst={isFirst} />}
-                      <span
-                        className={`text-sm ${
-                          isNested ? "pl-4" : ""
-                        } ${isFirst ? "font-medium text-[#f97316]" : "text-[#d1d5db]"}`}
+                  return (
+                    <div
+                      key={`${file.name}-${idx}`}
+                      className={`flex items-center justify-between border-b border-[#2a2a2a] px-4 py-2.5 last:border-0 ${
+                        isFirst
+                          ? "bg-[#f97316]/10"
+                          : "bg-[#1a1a1a] hover:bg-[#222]"
+                      }`}
+                    >
+                      <div
+                        className="flex items-center gap-2.5"
+                        style={{ paddingLeft: `${depth * 16}px` }}
                       >
-                        {file.name}
-                      </span>
+                        {isFolder ? <FolderIcon /> : <FileIcon isFirst={isFirst} />}
+                        <span
+                          className={`text-sm ${
+                            isFirst
+                              ? "font-medium text-[#f97316]"
+                              : "text-[#d1d5db]"
+                          }`}
+                        >
+                          {file.name.split("/").pop()}
+                        </span>
+                      </div>
+                      {file.size !== null && (
+                        <span className="text-xs text-[#6b7280]">
+                          {file.size.toLocaleString()}
+                        </span>
+                      )}
                     </div>
-                    {file.size !== null && (
-                      <span className="text-xs text-[#6b7280]">
-                        {file.size.toLocaleString()}
-                      </span>
-                    )}
-                  </div>
-                );
-              })}
+                  );
+                })}
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         {/* Right: action panel */}
@@ -107,7 +131,6 @@ export default function SkillDetailPage({ params }: PageProps) {
             <div className="mb-5">
               <CopyButton text={installCommand} label="Download ZIP" variant="ghost" />
             </div>
-
             <div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-[#6b7280]">
                 Install via Claude Code
@@ -123,17 +146,7 @@ export default function SkillDetailPage({ params }: PageProps) {
 
 function ArrowLeftIcon() {
   return (
-    <svg
-      width="14"
-      height="14"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="m15 18-6-6 6-6" />
     </svg>
   );
@@ -141,17 +154,7 @@ function ArrowLeftIcon() {
 
 function FileIcon({ isFirst }: { isFirst: boolean }) {
   return (
-    <svg
-      width="14"
-      height="14"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke={isFirst ? "#f97316" : "#6b7280"}
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={isFirst ? "#f97316" : "#6b7280"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
       <polyline points="14 2 14 8 20 8" />
     </svg>
@@ -160,17 +163,7 @@ function FileIcon({ isFirst }: { isFirst: boolean }) {
 
 function FolderIcon() {
   return (
-    <svg
-      width="14"
-      height="14"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="#6b7280"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6b7280" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
     </svg>
   );

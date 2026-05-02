@@ -12,6 +12,21 @@ export type SkillCategory =
   | "Databases"
   | "Blockchain";
 
+export const ALL_CATEGORIES: SkillCategory[] = [
+  "Tools",
+  "Business",
+  "Development",
+  "Testing & Security",
+  "Data & AI",
+  "DevOps",
+  "Documentation",
+  "Content & Media",
+  "Research",
+  "Lifestyle",
+  "Databases",
+  "Blockchain",
+];
+
 export interface SkillFile {
   name: string;
   size: number | null;
@@ -24,6 +39,7 @@ export interface Skill {
   author: string;
   description: string;
   category: SkillCategory;
+  subcategory: string | null;
   fileCount: number;
   updatedDaysAgo: number;
   files: SkillFile[];
